@@ -263,7 +263,7 @@ Resources:
           Path: "s3://emr-hail-0.2-us-east-1/install_python3.sh"
       - Name: Install-Python-Jupyter
         ScriptBootstrapAction:
-          Path: s3://aws-bigdata-blog/artifacts/aws-blog-emr-jupyter/install-jupyter-emr5.sh
+          Path: "s3://aws-bigdata-blog/artifacts/aws-blog-emr-jupyter/install-jupyter-emr5.sh"
           Args:
           - "--toree"
           - "--ds-packages"
